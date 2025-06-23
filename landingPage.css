@@ -1,0 +1,25 @@
+.container{
+    background: #1f2937;
+    color:white;
+}
+.menu{
+    display:flex;
+    padding:20px;
+    gap:2em;
+}
+.menu > .header-logo{
+    flex:1;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.menu1{
+    display:flex;
+    flex:1;
+    justify-content: space-around;
+    text-align: start;
+    padding:20px;
+}
+.menu1 .image{
+    background-color: gray;
+    align-content: center;
+}
